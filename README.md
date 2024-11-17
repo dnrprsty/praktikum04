@@ -1,12 +1,12 @@
-# praktikum4
+# PRAKTIKUM 4
 
 
 ```mermaid
 graph TD
     Start((Start))
-    InitList[Initialize empty list: data_mahasiswa ]
+    InitList[Inisialisasi list kosong: data_mahasiswa ]
     InputData[/Input Data Mahasiswa: Nama, NIM, Nilai Tugas, Nilai UTS, Nilai UAS/]
-    CalculateNilai[/Calculate Nilai Akhir: tugas times 0.3 plus uts times 0.35 plus uas times 0.35/]
+    CalculateNilai[/Menghitung Nilai Akhir: tugas times 0.3 plus uts times 0.35 plus uas times 0.35/]
     AddToList[Tambahkan Data ke List]
     Decision{Tambah data lagi?}
     PrintData[/Print output data/]
@@ -94,8 +94,8 @@ for i, mhs in enumerate(data_mahasiswa, start=1):
 
 ## Contoh Output
 
-![Output](/Kode&Output/output.png)
+![Output](/code&output/output.png)
 
-## Catatan:
+## Catatan: 
 - Format tabel disesuaikan agar data lebih mudah dibaca.
 - Nilai akhir ditampilkan dengan dua angka desimal menggunakan ```format(nilai_akhir, '.2f')```.
